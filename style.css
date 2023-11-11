@@ -1,0 +1,13 @@
+#nav {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+#nav li {
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+.header {
+    text-align: center;
+}
