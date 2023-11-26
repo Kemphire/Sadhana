@@ -1,3 +1,11 @@
+* {
+  font-weight: bold;
+  font-size: large;
+}
+header {
+  margin: 0;
+  padding: 0;
+}
 /* For navbar */
 .navbar {
   background-color: white;
@@ -6,7 +14,7 @@
 }
 /* if we don't write this script the background color will not be applied to the navbar because the when we use float property the element is removed from the normal flow of the document and it is placed on the left or right side of its container. So, the background color is not applied to the navbar. To solve this problem we use overflow: auto; property to the navbar class. This property tells the browser to add a scrollbar to the navbar if the content overflows the width of the container. This will force the browser to display the background color of the navbar. */
 header {
-  padding: 10px 0;
+  padding: 0 0;
 }
 .navbar {
   overflow: auto;
@@ -31,7 +39,7 @@ header {
 .navbar ul li a {
   padding: 0 4px;
   text-decoration: none;
-  padding: 20px 13px;
+  padding: 10px 13px;
 }
 .navbar ul li.events {
   padding-right: 0;
@@ -40,26 +48,66 @@ li.search {
   float: right;
   margin: 0;
   padding: 0;
-  padding: 22px 0;
+  padding: 10px 0;
 }
 .logo {
   float: left;
 }
 .logo img {
-  margin-right: 600px;
-  width: 40px;
-  height: 40px;
-  padding: 8px 0;
+  margin-right: 393px;
+  width: 58px;
+  height: 47px;
+  padding: 0px 0;
 }
 #search {
   border-radius: 25px;
   text-align: center;
   width: 200px;
+  font-weight: lighter;
+  font-size: smaller;
 }
-.events a {
+/* to dispaly the login button inline and modify its color */
+#login-button {
   display: inline;
   margin: 0;
+  background-color: #5c415d;
+  padding: 2px 5px;
+  border-radius: 5px;
+  font-size: small;
+  color: rgba(151, 212, 17, 0.897);
+  font-weight: bold;
 }
 .navbar li a {
   margin-right: 10px;
 }
+/* To make ruler with padding and margin zero */
+hr {
+  margin: 0;
+  padding: 0;
+}
+/* To make th paragraph "|" as a seperator to be inline */
+
+.navbar li.seperaotor p {
+  display: inline;
+}
+/* to dispaly the signup button inline and modify its color */
+#signup-button {
+  display: inline;
+  margin: 0;
+  background-color: #5c415d;
+  padding: 2px 5px;
+  border-radius: 5px;
+  font-size: small;
+  color: rgba(151, 212, 17, 0.897);
+  font-weight: bold;
+}
+/* to make the navbar sticky */
+/* will do it later */
+/* to join signup and login buttons */
+#signup-button {
+  margin-left: -30px;
+}
+#login-button {
+  margin-left: 20px;
+}
+/* adding different styles to every links when we hover over it */
