@@ -1,4 +1,7 @@
 /* For log in and sign in page */
+* {
+  font-family: "Playfair Display", serif;
+}
 .whole-forum {
   position: absolute;
   top: 50%;
@@ -32,7 +35,7 @@ div label {
 }
 div input {
   margin: 10px 0;
-  text-align: center;
+  text-align: left;
 }
 div button {
   margin-bottom: 20px;
