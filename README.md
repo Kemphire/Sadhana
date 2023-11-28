@@ -1,7 +1,7 @@
 # Sadhana
 We are making sadhana's website for our html project
 
-# Contrbutors
+# Contributors
  -  Kartikey Shahi
  -  Dhruv singh rawat
  -  Vedansh yadav
