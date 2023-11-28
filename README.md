@@ -9,4 +9,4 @@ We are making sadhana's website for our html project
  -  Rohit Singh Tanwar
 -----------------------------------------------------------------------------
 
-## Hoping you're doing great!
+## Hoping for your good!
