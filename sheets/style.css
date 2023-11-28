@@ -33,8 +33,13 @@ header {
   float: left;
   margin-right: 10px; /* Adjust the spacing between items */
 }
-.navbar ul li.logo {
+.navbar ul li.logo a {
   float: left;
+  padding: 13px 0 0 13px;
+}
+.navbar ul li.logo img {
+  margin: 0;
+  padding: 0;
 }
 .events a {
   display: inline;
@@ -61,10 +66,13 @@ li#search {
   float: left;
 }
 .logo img {
-  margin-right: 393px;
+  margin-right: 50px;
   width: 58px;
   height: 47px;
   padding: 0px 0;
+}
+.navbar ul li.logo {
+  margin-right: 393px;
 }
 #search {
   border-radius: 25px;
@@ -94,6 +102,7 @@ li#search {
 hr {
   margin: 0;
   padding: 0;
+  border: 5px solid #120e122d;
 }
 /* to dispaly the signup button inline and modify its color */
 #signup-button {
@@ -159,7 +168,7 @@ ul li#events a {
   text-decoration: underline;
   text-shadow: 2px 2px 8px #08cf9d;
 }
-.navbar ul div li.logo a:hover img {
+.navbar ul li.logo a:hover img {
   box-shadow: 0 12px 16px 0 #08cf9d, 0 17px 50px 0 rgba(43, 176, 17, 0.587);
 }
 /* Working on main content */
