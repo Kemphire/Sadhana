@@ -256,6 +256,8 @@ footer div button {
 footer div button:hover {
   background-color: wheat;
   color: black;
+  box-shadow: 0 12px 16px 0 rgba(164, 90, 4, 0.813),
+    0 17px 50px 0 rgba(42, 5, 224, 0.82);
 }
 /* minimizing the whole size of form */
 footer div.form {
