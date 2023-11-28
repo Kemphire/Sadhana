@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./sheets/style.css" />
   </head>
   <body>
-    <header>
+    <header id="header">
       <nav class="navbar">
         <ul>
           <li class="logo">
@@ -185,10 +185,18 @@
       <footer>
         <div class="footer-links">
           <ul class="f-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Help & faq's</a></li>
-            <li><a href="#">YogaEvents</a></li>
-            <li><a href="#">Contact us</a></li>
+            <li>
+              <a href="#header" title="Home">Home</a>
+            </li>
+            <li>
+              <a href="#" title="Frequenly asked question">Help & faq's</a>
+            </li>
+            <li>
+              <a href="#" title="Previously Done events">YogaEvents</a>
+            </li>
+            <li>
+              <a href="#" title="Contact us">Contact us</a>
+            </li>
           </ul>
         </div>
         <div class="form">
@@ -210,7 +218,9 @@
               rows="10"></textarea>
           </form>
           <div id="submitinbutton">
-            <button id="submit-button">Submit</button>
+            <button id="submit-button" title="Submit your feedback">
+              Submit
+            </button>
           </div>
         </div>
       </footer>

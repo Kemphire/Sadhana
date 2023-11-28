@@ -198,7 +198,7 @@ footer ul li a {
 footer ul li a:hover {
   text-decoration: underline;
   color: crimson;
-  text-shadow: 2px 2px 8px #035715;
+  text-shadow: 4px 4px 16px #c7c7d4d3;
 }
 footer div.footer-links {
   padding-top: 35px;
