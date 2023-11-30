@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      * {
+        margin: 0;
+      }
+      .container {
+        position: relative;
+        text-align: center;
+        color: white;
+      }
+
+      .bottom-left {
+        position: absolute;
+        bottom: 45%;
+        left: 10.7%;
+        font-family: manrope, sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+      }
+
+      .top-left {
+        position: absolute;
+        top: 13.6%;
+        left: 11%;
+        font-family: manrope, sans-serif;
+        font-size: 60px;
+        font-weight: 500px;
+        padding-top: 100px;
+      }
+
+      .top-right {
+        position: absolute;
+        right: 31.5%;
+        font-family: manrope, sans-serif;
+        font-size: 60px;
+        font-weight: 500px;
+        top: 30%;
+        padding-right: 520px;
+      }
+
+      .bottom-right {
+        position: absolute;
+        top: 36%;
+        left: 10.8%;
+        font-family: manrope, sans-serif;
+        font-size: 60px;
+        font-weight: 500px;
+      }
+
+      .centered {
+        position: absolute;
+        top: 51%;
+        left: 22%;
+        transform: translate(-50%, -50%);
+        font-family: manrope, sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+      }
+
+      .Join {
+        position: absolute;
+        top: 60%;
+        left: 11%;
+        background-color: transparent;
+        border-width: 1px;
+        color: white;
+        cursor: pointer;
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        border-radius: 75px;
+        border-color: white;
+        border-radius: 16px;
+        width: 120px;
+        display: inline;
+        height: 60px;
+        font-weight: bold;
+        font-size: 15px;
+      }
+      .Join:hover {
+        background-color: white;
+        color: black;
+        font-size: bold;
+        border: none;
+      }
+      .Next {
+        margin-left: 80px;
+        background-color: rgb(221, 97, 97);
+        position: relative;
+        margin-left: 10%;
+        display: inline-block;
+        width: 1000px;
+      }
+
+      .text {
+        font-family: manrope, sans-serif;
+        font-size: 17.93px;
+        font-weight: bolder;
+        color: white;
+      }
+      .Level {
+        float: right;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="../images/save.jpg"
+        alt="Snow"
+        style="width: 100vw; height: 130vh" />
+      <div class="bottom-left">maditation and more...</div>
+      <div class="top-left">Your Space</div>
+      <div class="top-right">Your Practice</div>
+      <div class="bottom-right">Your Community</div>
+      <div class="centered">500+ Free on-demand yoga classes,</div>
+      <button class="Join">Join us</button>
+    </div>
+    <div class="Next">
+      <span class="text"
+        >How do you want to practice today? <br />Let's find the ideal class for
+        you.</span
+      >
+      <button class="Level">Your Level</button>
+    </div>
+  </body>
+</html>
