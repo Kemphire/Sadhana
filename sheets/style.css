@@ -120,11 +120,9 @@ hr {
   cursor: pointer;
   transition: 0.5s;
 }
-/* to make the navbar sticky */
-header {
-  position: sticky;
-  top: 0;
-  background: transparent;
+hr {
+  width: 100%;
+  border: 10px;
 }
 /* to join signup and login buttons */
 #signup-button {
@@ -417,4 +415,11 @@ main {
 .B1:hover {
   border-color: rgba(74, 74, 206, 0.758);
   cursor: pointer;
+}
+/* For sticky header */
+.navbar,
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
