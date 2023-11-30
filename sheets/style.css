@@ -283,7 +283,7 @@ main {
 .bottom-left {
   position: absolute;
   bottom: 45%;
-  left: 10.7%;
+  left: 10.15%;
   font-family: manrope, sans-serif;
   font-size: 18px;
   font-weight: bold;
@@ -291,12 +291,13 @@ main {
 
 .top-left {
   position: absolute;
-  top: 13.6%;
+  top: 5%;
   left: 11%;
   font-family: manrope, sans-serif;
   font-size: 60px;
   font-weight: 500px;
   padding-top: 100px;
+  margin: 20px 0;
 }
 
 .top-right {
@@ -305,13 +306,13 @@ main {
   font-family: manrope, sans-serif;
   font-size: 60px;
   font-weight: 500px;
-  top: 30%;
-  padding-right: 520px;
+  top: 28%;
+  padding-right: 391px;
 }
 
 .bottom-right {
   position: absolute;
-  top: 36%;
+  top: 35%;
   left: 10.8%;
   font-family: manrope, sans-serif;
   font-size: 60px;
@@ -321,7 +322,7 @@ main {
 .centered {
   position: absolute;
   top: 51%;
-  left: 22%;
+  left: 23%;
   transform: translate(-50%, -50%);
   font-family: manrope, sans-serif;
   font-size: 20px;
@@ -357,19 +358,63 @@ main {
 }
 .Next {
   margin-left: 80px;
-  background-color: rgb(221, 97, 97);
+  background-color: white;
   position: relative;
   margin-left: 10%;
   display: inline-block;
   width: 1000px;
+  margin-top: -50px;
+  padding: 25px;
 }
 
 .text {
   font-family: manrope, sans-serif;
   font-size: 17.93px;
-  font-weight: bolder;
-  color: white;
+  font-weight: 13;
+  color: black;
 }
 .Level {
-  float: right;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 2%;
+  border: none;
+  background-color: #007db8;
+  color: white;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 28px;
+  font-weight: 10;
+  cursor: pointer;
+  transition: 0.7s;
+}
+.Level:hover {
+  background-color: #007db8;
+  opacity: 0.8;
+}
+.B1 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 19%;
+  border: solid;
+  background-color: white;
+  color: rgb(19, 15, 15);
+  width: 100px;
+  height: 47px;
+  font-size: 8px;
+  border-color: rgba(214, 198, 198, 0.694);
+  border-radius: 32px;
+  transition: border-color 0.15s;
+}
+#a1 {
+  font-size: 15px;
+  display: inline;
+  font-weight: bold;
+}
+.B1:hover {
+  border-color: rgba(74, 74, 206, 0.758);
+  cursor: pointer;
 }
