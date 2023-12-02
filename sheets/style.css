@@ -10,6 +10,10 @@ header {
   margin: 0;
   padding: 0;
 }
+/* For smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
 /* For navbar */
 .navbar {
   background-color: rgba(234, 234, 236, 0.685);
@@ -261,6 +265,7 @@ footer div button:hover {
   color: black;
   box-shadow: 0 12px 16px 0 rgba(164, 90, 4, 0.813),
     0 17px 50px 0 rgba(42, 5, 224, 0.82);
+  opacity: 0.7;
 }
 /* minimizing the whole size of form */
 footer div.form {
@@ -281,7 +286,7 @@ main {
 .bottom-left {
   position: absolute;
   bottom: 45%;
-  left: 10.15%;
+  left: 11.2%;
   font-family: manrope, sans-serif;
   font-size: 18px;
   font-weight: bold;
@@ -320,7 +325,7 @@ main {
 .centered {
   position: absolute;
   top: 51%;
-  left: 23%;
+  left: 24%;
   transform: translate(-50%, -50%);
   font-family: manrope, sans-serif;
   font-size: 20px;
@@ -347,22 +352,25 @@ main {
   height: 60px;
   font-weight: bold;
   font-size: 15px;
+  transition: 0.7s;
 }
 .Join:hover {
   background-color: white;
   color: black;
   font-size: bold;
   border: none;
+  font-size: large;
 }
 .Next {
   margin-left: 80px;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.808);
   position: relative;
   margin-left: 10%;
   display: inline-block;
   width: 1000px;
   margin-top: -50px;
   padding: 25px;
+  margin-bottom: 10px;
 }
 
 .text {
@@ -392,7 +400,8 @@ main {
   background-color: #007db8;
   opacity: 0.8;
 }
-.B1 {
+.B1,
+.B2 {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -407,12 +416,17 @@ main {
   border-radius: 32px;
   transition: border-color 0.15s;
 }
-#a1 {
+.B2 {
+  right: 31%;
+}
+#a1,
+#a2 {
   font-size: 15px;
   display: inline;
   font-weight: bold;
 }
-.B1:hover {
+.B1:hover,
+.B2:hover {
   border-color: rgba(74, 74, 206, 0.758);
   cursor: pointer;
 }
