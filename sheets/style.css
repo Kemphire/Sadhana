@@ -88,6 +88,7 @@ li#search {
   font-size: smaller;
   color: rgb(1, 30, 125);
   padding-right: 25px;
+  display: inline;
 }
 /* to dispaly the login button inline and modify its color */
 #login-button {

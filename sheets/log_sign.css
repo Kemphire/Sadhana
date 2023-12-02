@@ -1,13 +1,34 @@
 /* For log in and sign in page */
 * {
   font-family: "Playfair Display", serif;
+  margin: 0;
+  padding: 0;
 }
+/* Background for the whole page */
+body {
+  background-image: url(../images/login_page_banner.jpg);
+  background-size: cover;
+  background-position: inherit;
+  background-repeat: no-repeat;
+}
+
 .whole-forum {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 20px;
+  padding: 10px;
+  border: 2px solid #d9caca;
+  backdrop-filter: blur(
+    10px
+  ); /* Adjust the blur value based on your preference */
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.5
+  ); /* Adjust the alpha value for transparency */
+  border-radius: 10px;
 }
 h1 {
   text-align: center;
