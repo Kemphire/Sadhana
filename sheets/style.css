@@ -11,9 +11,6 @@ header {
   padding: 0;
 }
 /* For smooth scroll */
-html {
-  scroll-behavior: smooth;
-}
 /* For navbar */
 .navbar {
   background-color: rgba(234, 234, 236, 0.685);
@@ -78,7 +75,7 @@ li#search {
   padding: 0px 0;
 }
 .navbar ul li.logo {
-  margin-right: 393px;
+  margin-right: 314px;
 }
 #search {
   border-radius: 25px;
@@ -287,7 +284,7 @@ main {
 .bottom-left {
   position: absolute;
   bottom: 45%;
-  left: 11.2%;
+  left: 10.2%;
   font-family: manrope, sans-serif;
   font-size: 18px;
   font-weight: bold;
@@ -296,7 +293,7 @@ main {
 .top-left {
   position: absolute;
   top: 5%;
-  left: 11%;
+  left: 10.5%;
   font-family: manrope, sans-serif;
   font-size: 60px;
   font-weight: 500px;
@@ -306,7 +303,7 @@ main {
 
 .top-right {
   position: absolute;
-  right: 31.5%;
+  right: 26.5%;
   font-family: manrope, sans-serif;
   font-size: 60px;
   font-weight: 500px;
