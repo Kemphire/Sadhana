@@ -180,96 +180,57 @@ main {
 }
 /* will make it latr */
 /* customizing footer */
-footer {
-  background-color: rgba(3, 53, 36, 0.916);
-  padding: 0;
+footer,
+ul {
+  background-color: wheat;
   margin: 0;
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
+  padding: 30px;
+  text-align: left;
+  padding-bottom: 10px;
 }
-footer ul {
-  display: inline;
-  list-style: none;
-  margin: 0;
-  padding-left: 451px;
+
+footer ul.f-links,
+footer ul.g-links {
+  height: 100%;
+  list-style-type: none;
+  display: inline-block; /* Using inline-block to keep them on the same line */
+  vertical-align: top; /* Aligning them at the top */
 }
-footer ul li,
-footer ul li a {
-  display: inline;
-  padding: 0 13px;
+footer ul.g-links {
+  text-align: center;
+  float: right;
+}
+footer ul.f-links {
+  nav-left: 60%;
+}
+footer nav ul.f-links li,
+footer nav ul.g-links li {
+  margin-bottom: 15px;
+}
+footer ul.f-links li a,
+footer ul.g-links li a {
   text-decoration: none;
-  color: yellow;
+  color: black;
+  display: inline; /* Ensures the entire list item is not clickable */
 }
-footer ul li a:hover {
+footer ul.f-links li a:hover,
+footer ul.g-links li a:hover {
   text-decoration: underline;
   color: crimson;
-  text-shadow: 4px 4px 16px #c7c7d4d3;
+  text-shadow: 4px 4px 16px #2323cce3;
 }
-footer div.footer-links {
-  padding-top: 35px;
-  padding-bottom: 35px;
+p.copy {
+  margin-top: 82px;
+  display: inline-block;
+  font-weight: lighter;
 }
-/* feedback form */
-form {
-  padding-left: 40px;
-  display: inline;
-  border: 10px;
+p.policy {
+  margin-top: 116px;
+  display: inline-block;
+  font-weight: lighter;
 }
-footer form.feedback {
-  padding: 0;
-  margin: 0;
-}
-footer form input {
-  border-radius: 7px;
-  margin: 13px 0;
-  margin-left: 30px;
-  width: 40vh;
-}
-footer form input#age {
-  margin-left: 44px;
-}
-footer form #feedback-text {
-  border-radius: 20px;
-  display: inline;
-  margin-left: 30px;
-  margin-bottom: 45px;
-  margin-top: 10px;
-  width: 113vh;
-  color: gold;
-  padding: -5px;
-}
-footer form label {
-  margin-left: 30px;
-}
-footer form p {
-  margin-left: 30px;
-  margin-top: 40px;
-}
-/* submit button */
-footer div button {
-  margin-bottom: 20px;
-  width: 113vh;
-  border-radius: 6px;
-  color: white;
-  background-color: rgb(244, 9, 9);
-  height: 30px;
-  font-weight: bold;
-  transition: 0.7s;
-  margin-left: 30px;
-  margin-top: -15px;
-}
-footer div button:hover {
-  background-color: wheat;
-  color: black;
-  box-shadow: 0 12px 16px 0 rgba(164, 90, 4, 0.813),
-    0 17px 50px 0 rgba(42, 5, 224, 0.82);
-  opacity: 0.7;
-}
-/* minimizing the whole size of form */
-footer div.form {
-  display: inline;
-  width: 30vh;
-  height: 50px;
+p.policy a {
+  font-weight: lighter;
 }
 /* css for main content */
 main {
@@ -284,7 +245,7 @@ main {
 .bottom-left {
   position: absolute;
   bottom: 45%;
-  left: 10.2%;
+  left: 11.2%;
   font-family: manrope, sans-serif;
   font-size: 18px;
   font-weight: bold;
@@ -323,7 +284,7 @@ main {
 .centered {
   position: absolute;
   top: 51%;
-  left: 24%;
+  left: 25%;
   transform: translate(-50%, -50%);
   font-family: manrope, sans-serif;
   font-size: 20px;
