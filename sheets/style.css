@@ -225,7 +225,7 @@ p.copy {
   font-weight: lighter;
 }
 p.policy {
-  margin-top: 116px;
+  margin-top: 78px;
   display: inline-block;
   font-weight: lighter;
 }
@@ -500,3 +500,4 @@ header {
   width: 230px;
   height: 180px;
 }
+/* last finishing touch for product till now */
