@@ -1,0 +1,71 @@
+/* for feedback page */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Playfair Display", serif;
+}
+body {
+  background-image: url(../images/feedback_banner.jpg);
+  background-size: cover;
+  background-position: inherit;
+  background-repeat: no-repeat;
+}
+.whole-form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  border: 2px solid #daa750;
+  backdrop-filter: blur(
+    10px
+  ); /* Adjust the blur value based on your preference */
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.1
+  ); /* Adjust the alpha value for transparency */
+  border-radius: 10px;
+}
+h1 {
+  text-align: center;
+  margin: 10px;
+  padding: 0;
+}
+span.greeting {
+  margin-bottom: 20px;
+  display: block;
+  text-align: left;
+  float: left;
+}
+.whole-form button {
+  margin-bottom: 20px;
+  width: 344px;
+  border-radius: 6px;
+  color: white;
+  background-color: black;
+  height: 30px;
+  font-weight: bold;
+  transition: 0.7s;
+  width: 314px;
+}
+.whole-form button:hover {
+  background-color: transparent;
+  color: black;
+  font-size: large;
+}
+input {
+  height: 25px;
+}
+input,
+textarea {
+  margin: 15px 0;
+  width: 314px;
+  background-color: transparent;
+  border: 1px solid green;
+  border-radius: 15px;
+}
+label {
+  font-weight: medium;
+}
