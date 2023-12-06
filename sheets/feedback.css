@@ -32,12 +32,16 @@ h1 {
   text-align: center;
   margin: 10px;
   padding: 0;
+  font-weight: bolder;
+  font-size: xx-large;
 }
 span.greeting {
   margin-bottom: 20px;
   display: block;
   text-align: left;
   float: left;
+  font-weight: bolder;
+  font-size: larger;
 }
 .whole-form button {
   margin-bottom: 20px;
