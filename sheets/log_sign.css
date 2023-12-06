@@ -69,8 +69,9 @@ div button {
   transition: 0.7s;
 }
 div button:hover {
-  background-color: wheat;
+  background-color: transparent;
   color: black;
+  font-size: large;
 }
 div input#checkbox {
   margin-right: 10px;
