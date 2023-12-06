@@ -93,3 +93,9 @@ div span#already a:hover {
   color: blue;
   text-decoration: underline;
 }
+input {
+  border-radius: 10px;
+  background-color: transparent;
+  height: 25px;
+  width: 344px;
+}
