@@ -181,7 +181,7 @@ main {
 /* will make it latr */
 /* customizing footer */
 footer,
-ul {
+nav ul {
   background-color: wheat;
   margin: 0;
   padding: 30px;
@@ -501,3 +501,67 @@ header {
   height: 180px;
 }
 /* last finishing touch for product till now */
+/* gaurav's work */
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container > .membership-card {
+  background-color: #f1f1f1;
+  margin: 15px;
+  padding: 20px;
+  font-size: 16px;
+}
+
+h1 {
+  font-family: manrop, sans-serif;
+  font-size: 44px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.color-box {
+  width: 250px;
+  height: 70px;
+  background-color: rgb(125, 99, 203);
+  border-radius: 0px 0px 0px 100%;
+  float: right;
+}
+
+.box-content {
+  padding: 50px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* gaurav's work */
+.img1 {
+  float: left;
+
+  padding-left: 5%;
+  padding-right: 6%;
+  margin-right: -3rem;
+}
+
+h1.gavr {
+  margin: 0%;
+  padding: 0%
+}
+
+p#gav {
+  margin-left: 5%;
+  font-size: 35px;
+}
+
+.img2 {
+  width: 150px;
+  height: 60px;
+}
+div.cars{
+background-color:none;
+border:2px grey solid;
+}
