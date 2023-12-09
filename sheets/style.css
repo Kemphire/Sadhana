@@ -181,7 +181,7 @@ main {
 /* will make it latr */
 /* customizing footer */
 footer,
-ul {
+nav ul {
   background-color: wheat;
   margin: 0;
   padding: 30px;
