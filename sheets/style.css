@@ -564,4 +564,5 @@ p#gav {
 div.cars{
 background-color:none;
 border:2px grey solid;
+border-radius: 50px;
 }
