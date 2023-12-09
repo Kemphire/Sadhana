@@ -565,4 +565,39 @@ div.cars{
 background-color:none;
 border:2px grey solid;
 border-radius: 50px;
+width: 100%;
+text-align:center;
+
+}
+/* Rohit singh tanwar's work */
+
+#pages {
+  display: flex;
+  overflow-x: scroll;
+  white-space: wrap;
+
+}
+
+img {
+  width: 450px;
+  height: 350px;
+  border: 2px white;
+}
+
+.class {
+  font-size: 25px;
+  margin: 5px;
+}
+
+.para {
+  width: 450px;
+}
+
+.bor {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
 }
