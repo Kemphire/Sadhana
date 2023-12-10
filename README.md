@@ -8,10 +8,14 @@ We are making sadhana's website for our html project
  -  Gaurav yadab
  -  Rohit Singh Tanwar
 -------------------------------------------------------------------------------
-# Video Tutorial
+# Complete overview of our project
 
 
-https://github.com/Kemphire/Sadhana/assets/146348925/d7948a37-fe2d-437c-8940-5750593f0e6b
+
+https://github.com/Kemphire/Sadhana/assets/146348925/68233f3a-6792-4edb-a371-ad67adb27645
+
+
+
 
 
 -----------------------------------------------------------------------------
