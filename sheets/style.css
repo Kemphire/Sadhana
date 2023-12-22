@@ -266,7 +266,7 @@ main {
 
 .top-right {
   position: absolute;
-  right: 33.5%;
+  right: 31.5%;
   font-family: manrope, sans-serif;
   font-size: 60px;
   font-weight: 500px;
@@ -286,7 +286,7 @@ main {
 .centered {
   position: absolute;
   top: 51%;
-  left: 23.5%;
+  left: 24%;
   transform: translate(-50%, -50%);
   font-family: manrope, sans-serif;
   font-size: 20px;
