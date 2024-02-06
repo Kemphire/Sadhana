@@ -5,7 +5,7 @@ We are making sadhana's website for our html project
  -  Kartikey Shahi
  -  Dhruv singh rawat
  -  Vedansh yadav
- -  Gaurav yadab
+ -  Gaurav yadav
  -  Rohit Singh Tanwar
 -------------------------------------------------------------------------------
 # Complete overview of our project
